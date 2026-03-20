@@ -152,7 +152,7 @@ graph_database_agent = Agent(
 
       To answer a user question generate one or more Cypher statements based on the database schema and the parts of the user question.
       If necessary resolve categorical attributes (like names, countries, industries, publications) first by retrieving them for a set of entities to translate from the user's request.
-      Use the `execute_query` tool repeatedly with the Cypher statements, you MUST generate statements that use named query parameters with `$parameter` style names
+      Use the `execute_read_query` tool repeatedly with the Cypher statements, you MUST generate statements that use named query parameters with `$parameter` style names
       and MUST pass them as a second dictionary parameter to the tool, even if empty.
       Parameter data can come from the users requests, prior query results or additional lookup queries.
       After the data for the question has been sufficiently retrieved, pass the data and control back to the parent agent.
