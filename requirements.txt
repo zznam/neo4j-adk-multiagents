@@ -1,4 +1,4 @@
 # Core dependencies
-google-adk>=1.21.0
+google-adk>=1.28.1,<2.0
 neo4j>=6.0.3
 python-dotenv>=1.0.0

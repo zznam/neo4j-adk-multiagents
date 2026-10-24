@@ -379,7 +379,7 @@ uv pip install google-adk neo4j
 
 See `requirements.txt` for the complete list of dependencies:
 
-- `google-adk>=1.21.0`: Google ADK framework for multi-agent orchestration
+- `google-adk>=1.28.1,<2.0`: Google ADK framework for multi-agent orchestration (kept on the compatible 1.x line)
 - `neo4j>=6.0.3`: Neo4j Python driver for graph database queries
 - `python-dotenv>=1.0.0`: Environment variable management
 
